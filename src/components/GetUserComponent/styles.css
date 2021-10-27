@@ -1,0 +1,64 @@
+.formParent {
+  background-color: aliceblue;
+  height: 300px;
+  width: 200px;
+  padding: 0 20px 20px 20px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formParent h1 {
+  font-size: 30px;
+  color: #000;
+}
+
+.formChild {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 40px;
+  width: 180px;
+  border-radius: 5px;
+  border: #3f62ab solid 2px;
+  margin: 20px;
+}
+
+input::placeholder {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: #7ba5fb;
+  font-weight: 600;
+}
+
+button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  height: 30px;
+  width: 180px;
+  background-color: #3f62ab;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  border: #7ba5fb solid 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #627fb9;
+  font-weight: 600;
+  border-radius: 5px;
+  border: #3f62ab solid 2px;
+}
